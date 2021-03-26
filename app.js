@@ -12,6 +12,8 @@ const Index=require("./routes/index")
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const dotenv = require('dotenv')
+dotenv.config()
 
 const cron = require('node-cron');
 var nodemailer = require("nodemailer")
